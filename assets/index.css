@@ -1,8 +1,4 @@
 
-body{
-    background-image: url('matrix.webp');
-    background-size: cover;
-}
 #main{
     position: absolute;
     border:2px solid cyan;
