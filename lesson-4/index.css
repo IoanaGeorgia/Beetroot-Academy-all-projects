@@ -1,0 +1,150 @@
+html{
+    height:100%;
+}
+body{
+    height:230%;
+    width:100%;
+    background-color: black;
+    text-transform: uppercase;
+    overflow-x: hidden;
+
+}
+#title{
+    position: absolute;
+    top:0%;
+    left:0%;
+    height:15%;
+    color:#66FF66;
+    width:100%;
+    border-bottom: 2px solid #66FF66;
+}
+#title p:nth-of-type(1){
+    width:100%;
+    text-align: center;
+    font-size:2em;
+    margin-top:1%;
+    margin-bottom:0;
+}
+#title p:nth-of-type(2){
+    width:98%;
+    text-align:right;
+    font-size:1.2em;
+    margin:0;
+}
+#index{
+    position: absolute;
+    top:15%;
+    left:0%;
+    width:100%;
+    height:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:5%;
+}
+#index a{
+    color:#66FF66;
+    font-size:1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    padding:1%;
+}
+#index a:visited{
+    color:#66FF66;
+    font-size:1.3em;
+    text-decoration: none;
+    font-weight: bold;
+}
+#index img{
+    filter: invert(100%);
+}
+#course-structure{
+    position: absolute;
+    top:45%;
+    left:0%;
+    height:65%;
+    width:100%;
+    color:#66FF66;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#course-structure p{
+    font-size:1.3em;
+    font-weight: bolder;
+}
+#course-structure table{
+    width:70%;
+    text-align: center;
+    table-layout: fixed;
+    padding:3%;
+}
+#course-structure__table td{
+    border:1px solid #66FF66;
+    padding:3%;
+}
+#contact-me{
+    position: absolute;
+    top:120%;
+    left:0%;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+#contact-me p{
+    font-size:1.3em;
+    font-weight: bolder;
+    width:100%;
+    text-align: center;
+    color:#66FF66;
+}
+
+#contact-me img{
+    width:25%;
+    height:50%;
+    align-self: center;
+    border:2px solid white;
+}
+#contact-me form{
+    margin:5%;
+}
+#contact-me input{
+    width:40%;
+    padding:1%;
+    outline: none;
+    background-color: transparent;
+    color:#66FF66;
+    border:2px solid #66FF66;
+}
+#contact-me textarea{
+    width:40%;
+    padding:1%;
+    outline: none;
+    margin-top:2%;
+    background-color: transparent;
+    color:#66FF66;
+    border:2px solid #66FF66;
+}
+#contact-me button{
+    margin-top:2%;
+    background-color: transparent;
+    color:#66FF66;
+    border:2px solid #66FF66;
+    padding:1%;
+    border-radius: 2%;
+}
+#greeting{
+    position: absolute;
+    top:220%;
+    margin:0;
+    left:0%;
+    height:10%;
+    color:#66FF66;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    border-top:2px solid #66FF66;
+}
