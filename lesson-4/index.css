@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 
 }
-#title{
+header{
     position: absolute;
     top:0%;
     left:0%;
@@ -18,20 +18,20 @@ body{
     width:100%;
     border-bottom: 2px solid #66FF66;
 }
-#title p:nth-of-type(1){
+header p:nth-of-type(1){
     width:100%;
     text-align: center;
     font-size:2em;
     margin-top:1%;
     margin-bottom:0;
 }
-#title p:nth-of-type(2){
+header p:nth-of-type(2){
     width:98%;
     text-align:right;
     font-size:1.2em;
     margin:0;
 }
-#index{
+.index{
     position: absolute;
     top:15%;
     left:0%;
@@ -43,23 +43,23 @@ body{
     align-items: flex-start;
     padding-left:5%;
 }
-#index a{
+.index a{
     color:#66FF66;
     font-size:1.3em;
     text-decoration: none;
     font-weight: bold;
     padding:1%;
 }
-#index a:visited{
+.index a:visited{
     color:#66FF66;
     font-size:1.3em;
     text-decoration: none;
     font-weight: bold;
 }
-#index img{
+.index img{
     filter: invert(100%);
 }
-#course-structure{
+.course-structure{
     position: absolute;
     top:45%;
     left:0%;
@@ -71,21 +71,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-#course-structure p{
+.course-structure p{
     font-size:1.3em;
     font-weight: bolder;
 }
-#course-structure table{
+.course-structure table{
     width:70%;
     text-align: center;
     table-layout: fixed;
     padding:3%;
 }
-#course-structure__table td{
+.course-structure__table td{
     border:1px solid #66FF66;
     padding:3%;
 }
-#contact-me{
+.contact-me{
     position: absolute;
     top:120%;
     left:0%;
@@ -94,7 +94,7 @@ body{
     display:flex;
     flex-direction: column;
 }
-#contact-me p{
+.contact-me p{
     font-size:1.3em;
     font-weight: bolder;
     width:100%;
@@ -102,16 +102,16 @@ body{
     color:#66FF66;
 }
 
-#contact-me img{
+.contact-me img{
     width:25%;
     height:50%;
     align-self: center;
     border:2px solid white;
 }
-#contact-me form{
+.contact-me form{
     margin:5%;
 }
-#contact-me input{
+.contact-me input{
     width:40%;
     padding:1%;
     outline: none;
@@ -119,7 +119,7 @@ body{
     color:#66FF66;
     border:2px solid #66FF66;
 }
-#contact-me textarea{
+.contact-me textarea{
     width:40%;
     padding:1%;
     outline: none;
@@ -128,7 +128,7 @@ body{
     color:#66FF66;
     border:2px solid #66FF66;
 }
-#contact-me button{
+.contact-me button{
     margin-top:2%;
     background-color: transparent;
     color:#66FF66;
@@ -136,7 +136,7 @@ body{
     padding:1%;
     border-radius: 2%;
 }
-#greeting{
+footer{
     position: absolute;
     top:220%;
     margin:0;
