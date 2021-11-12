@@ -44,7 +44,9 @@ img {
   font-size: 14px;
   text-decoration: none;
 }
-
+.header__links a:hover{
+  transform: scale(1.5);
+}
 .small-title {
   font-family: Nunito;
   font-style: normal;
@@ -87,6 +89,9 @@ main button {
   width: 300px;
   font-size: 14px;
   border: none;
+}
+main button:hover{
+  transform: rotateZ(120deg);
 }
 main img {
   width: 568.13px;
@@ -141,6 +146,9 @@ main img {
   justify-content: center;
   align-items: center;
 }
+.secondmain__details--inside:hover{
+  transform: translateY(100px);
+}
 .secondmain__details--inside p:nth-child(1){
   color:#3B4D6C;
   font-size:20px;
@@ -182,6 +190,9 @@ main img {
   font-family:Avenir Next;
   font-size:46px;
   width:100%;
+}
+.secondmainstats__inside--stats:hover{
+  transform: skewX(-30deg);
 }
 .secondmainstats__inside--description{
   color:#2557AB;
