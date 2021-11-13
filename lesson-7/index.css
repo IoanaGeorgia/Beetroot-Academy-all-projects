@@ -1,0 +1,114 @@
+html{
+    height:100%;
+}
+body{
+    background: #E5E5E5;
+    height:100%;
+    width:100%;
+}
+.container{
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-gap:2%;
+}
+.first-two{
+    grid-row-start:1;
+    grid-row-end:4;
+    grid-column-start:1;
+    grid-column-end:3;
+    display:grid;
+    grid-template-rows:50%, 50%;
+    grid-row-gap: 5%;
+}
+.container-small--purplefirst{
+    background: #ADA7C9;
+}
+.container-small--purplepink{
+    background: #D7B9D5;
+}
+.container-small--metalblue{
+    background: #729EA1;
+    grid-row-start:4;
+    grid-row-end:6;
+    grid-column-start:1;
+    grid-column-end:3;
+    
+
+}
+.container-small--pink{
+    background: #EAC4D5;
+    grid-row-start:1;
+    grid-row-end:4;
+    grid-column-start:3;
+    grid-column-end:5;
+
+}
+.container-small--grey{
+    background: #93A8AC;
+    grid-row-start:4;
+    grid-row-end:5;
+
+
+}
+.container-small--lightmauve{
+    background: #ADA7C9;
+    grid-row-start:5;
+    grid-row-end:6;
+
+
+}
+.container-small--lightgreen{
+    background: #BAD4AA;
+    grid-row-start:4;
+    grid-row-end:6;
+    grid-column-start:4;
+    grid-column-end:6;
+
+
+}
+.container-small--black{
+    background: #1D3236;
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column-start:5;
+    grid-column-end:7;
+
+}
+.container-small--bluegreen{
+    background: #89B6A5;
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:5;
+    grid-column-end:7;
+
+}
+.container-small--darkpurple{
+    background: #4C3B4D;
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:5;
+    grid-column-end:7;
+
+}
+.container-small--purpleblack{
+    background: #2F323A;
+    grid-row-start:4;
+    grid-row-end:6;
+    grid-column-start:6;
+    grid-column-end:7;
+
+
+}
+.container-small--ending{
+    background: #9BC1BC;
+    grid-column-start:1;
+    grid-column-end:7;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:64px;
+    font-weight:700;
+    
+
+}
