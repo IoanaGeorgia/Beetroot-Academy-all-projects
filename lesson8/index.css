@@ -216,7 +216,7 @@ footer{
     padding-right:5%;
 
 }
-.header__links, .logos{
+.logos{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
