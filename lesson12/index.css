@@ -12,8 +12,8 @@ body{
     align-items:center;
 }
 .header__first{
-    width:1250px;
-    height:78px;
+    width:90%;
+    height:15%;
     position: absolute;
     top:0%;
     left:0%;
@@ -24,15 +24,15 @@ body{
     padding-left: 5%;
 }
 .header__first img{
-    width:186px;
-    height:32px;
+    width:20%;
+    height:50%;
 }
 .header__second{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:550px;
+    width:50%;
 }
 .header__links {
     color:#2F281E;
@@ -40,7 +40,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width:300px;
+    width:80%;
     font-weight:bold;
 }
 .header__links a{
@@ -54,11 +54,13 @@ body{
     align-items: center;
     padding-right: 5%;
     font-size:1.1em;
+    width:40%;
 
 }
 .header__buttons button:nth-of-type(1){
-    width:99px;
-    height:46px;
+    width:100%;
+    height:50%;
+    padding:5%;
     background-color: transparent;
     color:black;
     border-radius: 5%;
@@ -67,8 +69,9 @@ body{
     font-size:0.9em;
 }
 .header__buttons button:nth-of-type(2){
-    width:110px;
-    height:46px;
+    width:100%;
+    height:50%;
+    padding:5%;
     background-color: #FF9900;
     color:white;
     border-radius: 5%;
@@ -76,10 +79,10 @@ body{
     font-size:0.9em;
 }
 .main__first{
-    height:496px;
-    width:1200px;
+    height:100%;
+    width:90%;
     position: absolute;
-    top:100px;
+    top:15%;
     left:5%;
     display:flex;
     flex-direction: row;
@@ -94,8 +97,8 @@ body{
 }
 
 .main__first img{
-    width:605px;
-    height:496px;
+    width:60%;
+    height:90%;
 }
 .text_big{
     color:#2F281E;
@@ -137,10 +140,10 @@ body{
 }
 .main__second{
     position: absolute;
-    top:680px;
+    top:100%;
     left:5%;
-    width:1200px;
-    height:496px;
+    width:90%;
+    height:100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -166,8 +169,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width:240px;
-    height:178px;
+    width:20%;
+    height:50%;;
 }
 .main__second--classbutton p:nth-of-type(1){
     color:#2F281E;
@@ -209,18 +212,18 @@ body{
 }
 .main__third{
     position: absolute;
-    top:1340px;
+    top:220%;
     left:5%;
-    width:1200px;
-    height:496px;
+    width:90%;
+    height:100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 .main__third img{
-    width:520px;
-    height:574px;
+    width:60%;
+    height:90%;
 }
 .main__third--text{
     display:flex;
@@ -246,10 +249,10 @@ body{
 }
 .main__fourth{
     position: absolute;
-    top:1990px;
+    top:340%;
     left:5%;
-    width:1200px;
-    height:496px;
+    width:90%;
+    height:100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -274,10 +277,10 @@ body{
 }
 .main__fifth{
     position: absolute;
-    top:2700px;
+    top:460%;
     left:5%;
-    width:1200px;
-    height:496px;
+    width:90%;
+    height:100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,10 +292,10 @@ body{
 }
 .main__ending{
     position: absolute;
-    top:3300px;
+    top:570%;
     left:5%;
-    width:1200px;
-    height:300px;
+    width:90%;
+    height:50%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -329,3 +332,58 @@ body{
     outline: none;
 
 }
+@media only screen and (max-width: 600px) {
+    .main__text {
+      width:100%;
+    }
+    .main__first img{
+        display:none;
+    }
+    .header__second{
+        flex-direction: column;
+        width:70%;
+    }
+    .header__first img{
+        width:30%;
+        height:30%;
+    }
+    .main__second p:nth-child(1){
+        width:90%;
+    }
+    .main__second--button{
+        flex-direction: column;
+    }
+    .main__second--classbutton{
+        width:70%;
+        height:20%;
+    }
+    .main__third img{
+        width:50%;
+        height:50%;
+    
+    }
+    .main__fourth img{
+        width:50%;
+        height:50%;
+    }
+    .main__fifth img{
+        width:50%;
+        height:50%;
+    }
+    .main__ending{
+        flex-direction: column;
+    }
+    .main__ending img{
+        margin-top:10%;
+    }
+    .main__ending--container{
+        width:70%;
+    }
+    .main__ending--form{
+        width:70%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
