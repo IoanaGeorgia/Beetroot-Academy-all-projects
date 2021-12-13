@@ -1,0 +1,226 @@
+html{
+    width:100%;
+    height:100%;
+    overflow-y:hidden;
+}
+body{
+    height:100%;
+    width:400%;
+}
+.container-main{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-page{
+    position: absolute;
+    top:0%;
+    left:0%;
+    background-color: white;
+    background-image:url("Grid.png");
+    background-size: cover;
+}
+.container-second{
+    width:75%;
+    height:100%;
+    position:relative;
+}
+.long-header{
+    width:100%;
+    height:15%;
+    position: absolute;
+    top:0%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.long-header__paragraph{
+    font-size:24px;
+    padding:0px;
+}
+.long-header__container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:20%;
+    font-size:16px;
+}
+.long-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:90%;
+    width:100%;
+    position: relative;
+    top:15%;
+}
+.long-main__text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:50%;
+    position: absolute;
+    top:0px;
+}
+.long-main__title{
+    font-weight:bold;
+    font-size:100px;
+    margin:0px;
+}
+.long-main__subtitle{
+    font-size:22px;
+    width:70%;
+    text-align: center;
+    margin:0px;
+}
+.long-main__image{
+    width:100%;
+    height:50%;
+    position:absolute;
+    bottom:0px;
+}
+.first-page-double{
+    position: absolute;
+    top:0%;
+    left:100%;
+    background-color: white;
+    background-image:url("Grid.png");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-second-flexed{
+    width:75%;
+    height:90%;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+}
+.container-second__left{
+    height:100%;
+    width:50%;
+    position: relative;
+
+}
+.container-second__right{
+    height:100%;
+    width:50%;
+}
+.container-second-flexed__image{
+    height:100%;
+    width:100%;
+}
+.small-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height:85%;
+    top:15%;
+    position: relative;
+}
+.first-page-double__header{
+    align-items:baseline;
+    align-content:flex-start;
+}
+.first-page-double__header-container{
+    width:40%;
+    align-items:baseline;
+    margin-right:5%;
+}
+.first-page-double__subtitle{
+    text-align: left;
+    width:90%;
+}
+.small-main__arrow{
+    justify-self: flex-end;
+    align-self: flex-start;
+    font-size:2.3em;
+    position: absolute;
+    bottom:0%;
+
+}
+.second-page-double{
+    position: absolute;
+    top:0%;
+    left:300%;
+    background-image:url("Grid.png");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:black;
+}
+.second-page{
+    color:white;
+    background-color:black;
+    position: absolute;
+    left:200%;
+    top:0%;
+    width:100%;
+    height:100%;
+    background-image:url("Grid.png");
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      height:50%;
+    }
+    .container-second{
+        width:85%;
+    }
+    .container-second-flexed{
+        flex-direction: column;
+    }
+    .container-second__left{
+        width:100%;
+    }
+    .container-second__right{
+        width:100%;
+    }
+    .small-main{
+        height:200%;
+        align-items:center;
+    }
+    .first-page-double__subtitle{
+        text-align:center;
+        width:100%;
+    }
+    .small-main__arrow{
+        display:none;
+    }
+    .first-page-double__header{
+        height:40%;
+        z-index: 30;
+    }
+    .first-page-double__header-container{
+        width:25%;
+    }
+  }
+@media only screen and (max-width: 600px){
+    .long-header{
+        height:10%;
+    }
+    .long-main{
+        top:10%;
+    }
+    .long-header__container{
+        display:none;
+    }
+    .long-main__title{
+        font-size:3em;
+    }
+    .small-main{
+        height:80%;
+    }
+}
