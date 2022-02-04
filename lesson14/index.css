@@ -1,0 +1,79 @@
+body{
+    background-color:cornsilk;
+}
+.container{
+    height:80%;
+    width:80%;
+    background-color: black;
+    position: absolute;
+    top:10%;
+    left:10%;
+    border:2px solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content:space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width:10%;
+    height:25%;
+    background-color: green;
+    background-image: radial-gradient(#3c3, green, rgb(1, 48, 1));
+    border-radius:5%;
+    border:2px solid white;
+    margin:2%;
+}
+.card:hover{
+    background-image: url("JC.gif");
+    background-color:white;
+}
+.card1:hover{
+    background-image: url("JD.gif");
+    background-color:white;
+}
+.card2:hover{
+    background-image: url("JH.gif");
+    background-color:white;
+}
+.card3:hover{
+    background-image: url("joker.gif");
+    background-color:white;
+}
+.card4:hover{
+    background-image: url("JS.gif");
+    background-color:white;
+}
+.card5:hover{
+    background-image: url("KC.gif");
+    background-color:white;
+}
+.card6:hover{
+    background-image: url("KD.gif");
+    background-color:white;
+}
+.card7:hover{
+    background-image: url("KH.gif");
+    background-color:white;
+}
+.card8:hover{
+    background-image: url("Ks.gif");
+    background-color:white;
+}
+.card9:hover:hover{
+    background-image: url("QC.gif");
+    background-color:white;
+}
+.card10:hover{
+    background-image: url("QD.gif");
+    background-color:white;
+}
+.card11:hover{
+    background-image: url("QH.gif");
+    background-color:white;
+}
+.card12:hover{
+    background-image: url("QC.gif");
+    background-color:white;
+}
