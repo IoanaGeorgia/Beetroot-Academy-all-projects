@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- I wrote the CSS here in order not to create another file and therefore make it easier to read -->
+    <style>
+        body{
+            background-color: black;
+        }
+        #editing-div{
+            font-size:20px;
+            color: cyan;
+            border: 2px solid cyan;
+            padding:3%;
+            width:50%;
+            margin:5%;
+        }
+        #editing-textarea{
+            border:2px solid white;
+            font-size:16px;
+            color:white;
+            background-color: transparent;
+            padding:3%;
+            margin:5%;
+            width:50%;
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <div id="editing-div">Edit Me By Clicking Ctrl+E</div>
+    <textarea id="editing-textarea" placeholder="Go back with Ctrl+S..."></textarea>
+    <script src="index.js"></script>
+</body>
+</html>
